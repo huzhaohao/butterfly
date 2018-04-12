@@ -31,6 +31,11 @@
 		0F34ACC92074A2D100D2C89E /* rightShoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F34ACB82074A2D100D2C89E /* rightShoot.png */; };
 		0F34ACCA2074A2D100D2C89E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F34ACB92074A2D100D2C89E /* star.png */; };
 		0F34ACCD2074A85200D2C89E /* DropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F34ACCC2074A85200D2C89E /* DropViewController.m */; };
+		0F5B0B2D207B5B5000465AE5 /* UIButton+Bubbling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B0B2C207B5B4F00465AE5 /* UIButton+Bubbling.m */; };
+		0F5B0B30207B5B8500465AE5 /* GiftEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B0B2F207B5B8500465AE5 /* GiftEffectViewController.m */; };
+		0F5B0B33207B6C8A00465AE5 /* DazViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B0B32207B6C8A00465AE5 /* DazViewController.m */; };
+		0FE954BE207CADD700B183F0 /* SprayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE954BD207CADD700B183F0 /* SprayViewController.m */; };
+		0FE954C1207CBEFE00B183F0 /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE954C0207CBEFE00B183F0 /* SnowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,16 @@
 		0F34ACB92074A2D100D2C89E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		0F34ACCB2074A85200D2C89E /* DropViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropViewController.h; sourceTree = "<group>"; };
 		0F34ACCC2074A85200D2C89E /* DropViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropViewController.m; sourceTree = "<group>"; };
+		0F5B0B2B207B5B4700465AE5 /* UIButton+Bubbling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bubbling.h"; sourceTree = "<group>"; };
+		0F5B0B2C207B5B4F00465AE5 /* UIButton+Bubbling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bubbling.m"; sourceTree = "<group>"; };
+		0F5B0B2E207B5B8500465AE5 /* GiftEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftEffectViewController.h; sourceTree = "<group>"; };
+		0F5B0B2F207B5B8500465AE5 /* GiftEffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftEffectViewController.m; sourceTree = "<group>"; };
+		0F5B0B31207B6C8A00465AE5 /* DazViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DazViewController.h; sourceTree = "<group>"; };
+		0F5B0B32207B6C8A00465AE5 /* DazViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DazViewController.m; sourceTree = "<group>"; };
+		0FE954BC207CADD700B183F0 /* SprayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SprayViewController.h; sourceTree = "<group>"; };
+		0FE954BD207CADD700B183F0 /* SprayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SprayViewController.m; sourceTree = "<group>"; };
+		0FE954BF207CBEFE00B183F0 /* SnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		0FE954C0207CBEFE00B183F0 /* SnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,8 @@
 		0F34AC9120749F4E00D2C89E /* Grain */ = {
 			isa = PBXGroup;
 			children = (
+				0F5B0B2B207B5B4700465AE5 /* UIButton+Bubbling.h */,
+				0F5B0B2C207B5B4F00465AE5 /* UIButton+Bubbling.m */,
 				0F34ACA82074A2D100D2C89E /* Images */,
 				0F34AC9220749F4E00D2C89E /* AppDelegate.h */,
 				0F34AC9320749F4E00D2C89E /* AppDelegate.m */,
@@ -102,6 +119,14 @@
 				0F34AC9620749F4E00D2C89E /* ViewController.m */,
 				0F34ACCB2074A85200D2C89E /* DropViewController.h */,
 				0F34ACCC2074A85200D2C89E /* DropViewController.m */,
+				0F5B0B2E207B5B8500465AE5 /* GiftEffectViewController.h */,
+				0F5B0B2F207B5B8500465AE5 /* GiftEffectViewController.m */,
+				0F5B0B31207B6C8A00465AE5 /* DazViewController.h */,
+				0F5B0B32207B6C8A00465AE5 /* DazViewController.m */,
+				0FE954BC207CADD700B183F0 /* SprayViewController.h */,
+				0FE954BD207CADD700B183F0 /* SprayViewController.m */,
+				0FE954BF207CBEFE00B183F0 /* SnowViewController.h */,
+				0FE954C0207CBEFE00B183F0 /* SnowViewController.m */,
 				0F34AC9820749F4E00D2C89E /* Main.storyboard */,
 				0F34AC9B20749F4E00D2C89E /* Assets.xcassets */,
 				0F34AC9D20749F4E00D2C89E /* LaunchScreen.storyboard */,
@@ -224,9 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F34AC9720749F4E00D2C89E /* ViewController.m in Sources */,
+				0FE954C1207CBEFE00B183F0 /* SnowViewController.m in Sources */,
 				0F34ACA220749F4E00D2C89E /* main.m in Sources */,
 				0F34AC9420749F4E00D2C89E /* AppDelegate.m in Sources */,
+				0F5B0B2D207B5B5000465AE5 /* UIButton+Bubbling.m in Sources */,
 				0F34ACCD2074A85200D2C89E /* DropViewController.m in Sources */,
+				0F5B0B30207B5B8500465AE5 /* GiftEffectViewController.m in Sources */,
+				0FE954BE207CADD700B183F0 /* SprayViewController.m in Sources */,
+				0F5B0B33207B6C8A00465AE5 /* DazViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

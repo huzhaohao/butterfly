@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "DropViewController.h"
-
+#import "GiftEffectViewController.h"
+#import "DazViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (strong,nonatomic) UITableView *tableView;
@@ -56,14 +57,14 @@ static NSString *reuseIdentifier = @"reuserCell";
             [self.navigationController pushViewController:[[DropViewController alloc] init] animated:YES];
             break;
         }
-//        case 1:{
-//            [self.navigationController pushViewController:[[GiftEffectViewController alloc] init] animated:YES];
-//            break;
-//        }
-//        case 2:{
-//            [self.navigationController pushViewController:[[DazViewController alloc] init] animated:YES];
-//            break;
-//        }
+        case 1:{
+            [self.navigationController pushViewController:[[GiftEffectViewController alloc] init] animated:YES];
+            break;
+        }
+        case 2:{
+            [self.navigationController pushViewController:[[DazViewController alloc] init] animated:YES];
+            break;
+        }
 //        case 3:{
 //            [self.navigationController pushViewController:[[SprayViewController alloc] init] animated:YES];
 //            break;

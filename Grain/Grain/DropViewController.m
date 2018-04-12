@@ -126,7 +126,7 @@
     _isDropping = YES;
     dispatch_queue_t queue = dispatch_get_main_queue();
     self.timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, queue);
-    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC));/**< 延迟一秒执行*/
+    dispatch_time_t start = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC));/**< 延迟执行*/
     uint64_t interval = (uint64_t)(0.05 * NSEC_PER_SEC);
     dispatch_source_set_timer(self.timer, start, interval, 0);
     // 设置回调
@@ -141,7 +141,7 @@
             [self.giftView addSubview:dropView];
             UIPushBehavior *pushBehavior = [[UIPushBehavior alloc] initWithItems:@[dropView] mode:UIPushBehaviorModeInstantaneous];
             [self.animator addBehavior:pushBehavior];
-            //角度范围 ［0.6 1.0］
+//            角度范围 ［0.6 1.0］
             float random = ((int)(2 + (arc4random() % (10 - 4 + 1))))*0.1;
 
             pushBehavior.pushDirection = CGVectorMake(0.6,random);
