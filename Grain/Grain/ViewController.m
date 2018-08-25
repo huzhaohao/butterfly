@@ -10,6 +10,8 @@
 #import "DropViewController.h"
 #import "GiftEffectViewController.h"
 #import "DazViewController.h"
+#import "SprayViewController.h"
+#import "SnowViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (strong,nonatomic) UITableView *tableView;
@@ -28,7 +30,7 @@ static NSString *reuseIdentifier = @"reuserCell";
 }
 - (void)initTabelView{
     _titles = @[@"粒子掉落",@"直播礼物冒泡效果",@"烟花效果",@"喷射效果",@"雪花飘落"];
-//     _titles = @[@"粒子掉落",@"直播礼物冒泡效果",@"烟花效果",@"喷射效果",@"雪花飘落"];
+
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
@@ -65,14 +67,14 @@ static NSString *reuseIdentifier = @"reuserCell";
             [self.navigationController pushViewController:[[DazViewController alloc] init] animated:YES];
             break;
         }
-//        case 3:{
-//            [self.navigationController pushViewController:[[SprayViewController alloc] init] animated:YES];
-//            break;
-//        }
-//        case 4:{
-//            [self.navigationController pushViewController:[[SnowViewController alloc] init] animated:YES];
-//            break;
-//        }
+        case 3:{
+            [self.navigationController pushViewController:[[SprayViewController alloc] init] animated:YES];
+            break;
+        }
+        case 4:{
+            [self.navigationController pushViewController:[[SnowViewController alloc] init] animated:YES];
+            break;
+        }
 
         default:
             break;
