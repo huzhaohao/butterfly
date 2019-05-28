@@ -22,7 +22,7 @@
     ViewController *Ctr = [[ViewController alloc] init];
     UINavigationController *Nav = [[UINavigationController alloc] initWithRootViewController:Ctr];
     self.window.rootViewController = Nav;
-    NSLog(@"%s",__func__);
+    NSLog(@"%s==%@",__func__,@"1");
     return YES;
 }
 
