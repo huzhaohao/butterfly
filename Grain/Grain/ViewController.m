@@ -29,7 +29,7 @@ static NSString *reuseIdentifier = @"reuserCell";
     [self initTabelView];
 }
 - (void)initTabelView{
-    _titles = @[@"粒掉落",@"直播礼物冒泡效果",@"烟花效果",@"喷射效果",@"雪花飘落"];
+    _titles = @[@"",@"直播礼物冒泡效果",@"烟花效果",@"喷射效果",@"雪花飘落"];
     _titles = @[@"粒掉落",@"直播礼物冒泡效果",@"烟花效果",@"喷射效果",@"雪花飘落"];
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
