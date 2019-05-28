@@ -13,8 +13,7 @@ Build
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-*.xcuserdata
-KDS_Phone.xcodeproj/project.xcworkspace
+.xcuserdata
 profile.lock
 Pods/
 .svn
